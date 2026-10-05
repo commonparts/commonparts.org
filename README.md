@@ -22,7 +22,7 @@ The root page picks a language from an explicit choice (stored when a visitor us
 
 ## Content rules
 
-- The site presents the community index only. Frozen work (CPSP, certified printer network, certification, institutional structure) does not appear on any public page.
+- Keep it short and written for visitors: what the index does and how to contribute. Internal strategy (scope, roadmap, funding, licensing decisions) stays out of the public site.
 - No volatile figures (part or product counts) are hard-coded; the index itself is the source of truth.
 - No third-party scripts, fonts or trackers.
 
@@ -40,4 +40,4 @@ python3 -m http.server 8000
 
 ## License
 
-Site source: MIT — see [LICENSE](./LICENSE). Fonts: SIL Open Font License 1.1 — see [assets/fonts/OFL.txt](./assets/fonts/OFL.txt). Index data published by Common Parts Access: CC BY-SA 4.0.
+Site source: MIT — see [LICENSE](./LICENSE). Fonts: SIL Open Font License 1.1 — see [assets/fonts/OFL.txt](./assets/fonts/OFL.txt).
