@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Common Parts — Printable spare parts, organised by appliance</title>
-  <meta name="description" content="Search for your appliance by brand or model number and find the 3D-printable spare parts that fit it, with reports from people who printed them." />
+  <title>Common Parts — Open Infrastructure for Digital Spare Parts</title>
+  <meta name="description" content="Common Parts is an open infrastructure project for the structured distribution of digital spare parts. Building toward an open standard for repair." />
   <link rel="canonical" href="https://commonparts.org/en/" />
   <link rel="alternate" hreflang="fr" href="https://commonparts.org/fr/" />
   <link rel="alternate" hreflang="en" href="https://commonparts.org/en/" />
@@ -13,22 +13,12 @@
   <meta property="og:site_name" content="Common Parts" />
   <meta property="og:locale" content="en_GB" />
   <meta property="og:locale:alternate" content="fr_FR" />
-  <meta property="og:title" content="Common Parts — Printable spare parts, organised by appliance" />
-  <meta property="og:description" content="3D-printable spare parts, organised by appliance." />
+  <meta property="og:title" content="Common Parts — Open Infrastructure for Digital Spare Parts" />
+  <meta property="og:description" content="Common Parts is an open infrastructure project for the structured distribution of digital spare parts. Building toward an open standard for repair." />
   <meta property="og:url" content="https://commonparts.org/en/" />
   <link rel="icon" type="image/svg+xml" href="../symbol.svg" />
   <link rel="preload" href="../assets/fonts/ibm-plex-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="stylesheet" href="../assets/site.css" />
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Common Parts",
-    "url": "https://commonparts.org/en/",
-    "inLanguage": "en",
-    "description": "3D-printable spare parts, organised by appliance."
-  }
-  </script>
 </head>
 <body>
 
@@ -40,9 +30,9 @@
         Common Parts
       </a>
       <nav aria-label="Main navigation">
-        <a href="#how-it-works" class="nav-secondary">How it works</a>
-        <a href="#contribute" class="nav-secondary">Contribute</a>
-        <a href="https://access.commonparts.org">Index</a>
+        <a href="https://github.com/commonparts" class="nav-secondary">GitHub</a>
+        <a href="https://access.commonparts.org" class="nav-secondary">Access</a>
+        <a href="mailto:contact@commonparts.org">Contact</a>
         <a href="../fr/" hreflang="fr" lang="fr" class="lang-switch" data-lang="fr" title="Version française">FR</a>
       </nav>
     </div>
@@ -53,21 +43,54 @@
     <!-- HERO -->
     <div class="hero">
       <div class="container">
-        <h1>The printable part <em>for your appliance.</em></h1>
+        <h1>A framework for <em>digital spare parts.</em></h1>
         <p class="hero-sub">
-          Search for your appliance by brand or model number, and find the 3D-printable spare parts that fit it, with reports from people who printed them.
+          Common Parts defines how spare parts are structured, published, and distributed digitally.
         </p>
         <div class="hero-actions">
-          <a href="https://access.commonparts.org" class="btn-primary">Find a part</a>
-          <a href="#contribute" class="btn-secondary">Contribute</a>
+          <a href="https://access.commonparts.org" class="btn-primary">Browse Parts</a>
+          <a href="https://github.com/commonparts" class="btn-secondary">View on GitHub</a>
         </div>
       </div>
     </div>
 
     <div class="section-divider"></div>
 
+    <!-- ABOUT -->
+    <section class="prose">
+      <div class="container">
+        <p class="section-label">About</p>
+        <h2>What is Common Parts?</h2>
+        <p>
+          Repairing an object requires the right part. Digital manufacturing makes local, on-demand production of spare parts possible — but no shared standard exists for how those parts are described, published, or distributed.
+        </p>
+        <p>
+          Common Parts specifies that standard. It defines how spare parts are structured in a registry and how they are attributed to their authors.
+        </p>
+        <p>
+          Common Parts Access is the first platform built on this framework. It is an open registry where spare parts can be published, discovered, and accessed.
+        </p>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- COMPONENTS -->
+    <section class="prose alt">
+      <div class="container">
+        <p class="section-label">Components</p>
+        <div class="step-item">
+          <p class="step-tag">Registry</p>
+          <p class="step-name">Common Parts Access</p>
+          <p class="step-desc">An open platform for publishing and accessing digital spare parts. Parts are structured with standardized metadata and attributed to their original authors.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
     <!-- HOW IT WORKS -->
-    <section class="prose alt" id="how-it-works">
+    <section class="prose" id="how-it-works">
       <div class="container">
         <p class="section-label">How it works</p>
         <h2>How it works.</h2>
@@ -94,7 +117,7 @@
     <div class="section-divider"></div>
 
     <!-- CONTRIBUTE -->
-    <section class="prose" id="contribute">
+    <section class="prose alt" id="contribute">
       <div class="container">
         <p class="section-label">Contribute</p>
         <h2>Thirty seconds is enough.</h2>
@@ -133,6 +156,46 @@
       </div>
     </section>
 
+    <div class="section-divider"></div>
+
+    <!-- STATUS -->
+    <section class="prose">
+      <div class="container">
+        <p class="section-label">Status</p>
+        <h2>Current development</h2>
+        <div class="status-table">
+          <div class="status-row">
+            <div>
+              <div class="status-row-label">Common Parts Access</div>
+              <div class="status-row-sub">Open registry for digital spare parts</div>
+            </div>
+            <span class="tag tag-live">Live</span>
+          </div>
+          <div class="status-row">
+            <div>
+              <div class="status-row-label">Source code</div>
+              <div class="status-row-sub">MIT License — published on GitHub</div>
+            </div>
+            <span class="tag tag-live">Public</span>
+          </div>
+          <div class="status-row">
+            <div>
+              <div class="status-row-label">Parts Index</div>
+              <div class="status-row-sub">Structured spare parts with attribution and metadata</div>
+            </div>
+            <span class="tag tag-wip">In progress</span>
+          </div>
+          <div class="status-row">
+            <div>
+              <div class="status-row-label">Public API</div>
+              <div class="status-row-sub">Read-only access to the parts index</div>
+            </div>
+            <span class="tag tag-soon">Upcoming</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <!-- FOOTER -->
@@ -140,7 +203,7 @@
     <div class="container">
       <span class="footer-brand">Common Parts — 2026</span>
       <div class="footer-links">
-        <a href="https://access.commonparts.org">Index</a>
+        <a href="https://access.commonparts.org">Access</a>
         <a href="https://github.com/commonparts">GitHub</a>
         <a href="mailto:contact@commonparts.org">Contact</a>
       </div>
