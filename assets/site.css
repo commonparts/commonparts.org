@@ -455,34 +455,6 @@ section.alt {
   line-height: var(--typography-lineHeight-relaxed);
 }
 
-/* ─── PRINCIPLES LIST ─── */
-.principles {
-  list-style: none;
-  margin-top: var(--spacing-lg);
-  border-top: 1px solid var(--border);
-}
-
-.principles li {
-  display: grid;
-  grid-template-columns: 200px 1fr;
-  gap: var(--spacing-md);
-  padding: var(--spacing-md) 0;
-  border-bottom: 1px solid var(--border);
-}
-
-.principle-name {
-  font-weight: var(--typography-weight-medium);
-  color: var(--text-1);
-  font-size: var(--typography-size-bodyLg);
-  line-height: var(--typography-lineHeight-snug);
-}
-
-.principle-desc {
-  color: var(--text-2);
-  font-size: var(--typography-size-body);
-  line-height: var(--typography-lineHeight-relaxed);
-}
-
 /* ─── STATUS TABLE ─── */
 .status-table {
   width: 100%;
@@ -516,13 +488,6 @@ section.alt {
   font-size: var(--typography-size-caption);
   color: var(--text-2);
   margin-top: var(--spacing-3xs);
-  line-height: var(--typography-lineHeight-relaxed);
-}
-
-.status-row-signal {
-  font-size: var(--typography-size-caption);
-  color: var(--text-3);
-  margin-top: var(--spacing-2xs);
   line-height: var(--typography-lineHeight-relaxed);
 }
 
@@ -639,7 +604,6 @@ footer .container {
   .step-item:not(:last-child) { padding-right: 0; }
   .step-item:last-child { border-bottom: none; }
   .step-item + .step-item { padding-left: 0; }
-  .principles li { grid-template-columns: 1fr; gap: var(--spacing-2xs); }
   .status-row { grid-template-columns: 1fr; padding: var(--spacing-sm); }
   .status-row .tag { justify-self: start; grid-row: 1; }
 }
